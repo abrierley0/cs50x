@@ -1,12 +1,39 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 typedef struct node
 {
     int number;
-    node *next;
+    struct node *next;
 } node;
 
-int main(void)
+int main(int argc, char *argv[])
 {
-    
+    node *list = NULL;
+
+    for (int i = 1; i < argc; i++)
+    {
+        int number = atoi(argv[i]);
+
+        // printf("%i", number);
+
+        // Store in a linked list
+        node *n = malloc(sizeof(node));
+        if (n == NULL)
+        {
+            return 1;
+        }
+        n->number = number;
+        n->next = list;
+        list = n;
+    }
+    // printf("\n");
+
+    // Print whole list
+    node *ptr = list;
+    while (ptr != NULL)
+    {
+        printf("%i\n", ptr->number);
+        ptr = ptr->next;
+    }
 }

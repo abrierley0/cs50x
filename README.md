@@ -13,6 +13,7 @@ Algorithms
 
 Memory
 ------
+Pointers.
 
 Data Structures
 ---------------
