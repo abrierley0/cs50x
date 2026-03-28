@@ -3,7 +3,7 @@ Harvard CS50x Projects
 
 C
 ---
-Use of compiler, third party libraries, custom functions, data types, command-line arguments.
+Use of C compiler, third party libraries, custom functions, data types, command-line arguments. Focus on good design and good style.
 
 Arrays
 -------
