@@ -21,4 +21,5 @@ Data Structures
 Adding to arrays is inefficient. Linked lists preferable as easier to 
 dynamically allocate more memory. Can either append or prepend linked lists. 
 Hash tables and tries can be used. Dictionaries are an abstract datatype. 
-Hash table is O(1) plus O(n) algorithms.
+Hash table is O(1) plus O(n) algorithm. Dictionaries can use hash tables 
+or tries.
