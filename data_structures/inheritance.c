@@ -12,9 +12,10 @@ typedef struct person
     char alleles[2];    // Alleles of said person, either A, B, or O
 } person;
 
-const int GENERATIONS = 3;
+const int GENERATIONS = 3;  // Choose number of generations in family tree
 const int INDENT_LENGTH = 4;
 
+// Declare function prototypes
 person *create_family(int generations);
 void print_family(person *p, int generation);
 void free_family(person *p);
@@ -25,7 +26,7 @@ int main(void)
     // Use to generate random alleles
     srand(time(0));
 
-    // Returns the person with three generations of background
+    // Returns the person with X generations of background
     person *p = create_family(GENERATIONS);
 
     // Print family tree of blood types
