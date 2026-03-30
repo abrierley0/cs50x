@@ -1,3 +1,6 @@
+// Prepending a linked list. 
+// Binary search is not possible.
+
 #include <stdio.h>
 #include <stdlib.h>
 

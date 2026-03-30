@@ -10,6 +10,7 @@ Arrays
 
 Algorithms
 ----------
+Searching and sorting. Binary search is O(logn). 
 
 Memory
 ------
@@ -18,4 +19,5 @@ Pointers.
 Data Structures
 ---------------
 Adding to arrays is inefficient. Linked lists preferable as easier to 
-dynamically allocate more memory.
+dynamically allocate more memory. Appending, prepending linked lists. 
+Trees and recursion.shu
