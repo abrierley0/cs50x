@@ -1,6 +1,8 @@
 Harvard CS50x Projects
 ======================
 
+Below I am listing key concepts learned.
+
 C
 ---
 Use of C compiler, third party libraries, custom functions, data types, command-line arguments. Focus on good design and good style.
