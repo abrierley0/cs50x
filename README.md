@@ -2,7 +2,7 @@ Harvard CS50x Projects
 ======================
 
 _Written by Adam Brierley_\
-_Bedfordshire_\
+_Bedfordshire_
 
 Updated: _3rd April 2026_
 
