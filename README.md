@@ -10,7 +10,7 @@ Contact me here: _adambrierley3@gmail.com_
 
 ----------------------------------------------
 
-Welcome to my repository. Below are some of my favourite projects and 
+Welcome to my repository. Above are some of my favourite projects and 
 assignments from the online CS50x course.
 
 Key concepts that I've found most valuable are compilation, translating 
