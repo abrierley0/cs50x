@@ -1,14 +1,17 @@
 Harvard CS50x Projects
 ======================
 
-Written by Adam Brierley
-Bedfordshire
+_Written by Adam Brierley_\
+_Bedfordshire_\
 
-3rd April 2026
+Updated: _3rd April 2026_
+
+Contact me here: _adambrierley3@gmail.com_
+
+----------------------------------------------
 
 Welcome to my repository. Below are some of my favourite projects and 
 assignments from the online CS50x course.
-
 
 Key concepts that I've found most valuable are compilation, translating 
 source code into executable binaries, and hash tables, dynamically 
