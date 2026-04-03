@@ -1,4 +1,6 @@
-// Simulate genetic inheritance of blood type
+// This code simulates the genetic inheritance of blood type 
+// by a particualr individual going back as many generations as
+// you choose
 
 #include <stdbool.h>
 #include <stdio.h>
@@ -12,7 +14,7 @@ typedef struct person
     char alleles[2];    // Alleles of said person, either A, B, or O
 } person;
 
-const int GENERATIONS = 3;  // Choose number of generations in family tree
+const int GENERATIONS = 3;  // **CHOOSE NUMBER OF GENERATIONS**
 const int INDENT_LENGTH = 4;
 
 // Declare function prototypes
