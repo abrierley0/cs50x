@@ -1,5 +1,5 @@
-// Prepending a linked list. 
-// Binary search is not possible.
+// This code prepends a linked list with new values 
+// Note that binary search is not possible in this case
 
 #include <stdio.h>
 #include <stdlib.h>
