@@ -2,6 +2,8 @@ SPELLCHECKER
 ============
 
 _Written by Adam Brierley_
+_Bedfordshire_
+_UK_
 
 _Updated: 3rd April 2026_
 
