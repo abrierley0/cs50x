@@ -1,5 +1,5 @@
-Harvard CS50x Projects
-======================
+CS50x Projects
+==============
 
 _Written by Adam Brierley_\
 _Bedfordshire_
