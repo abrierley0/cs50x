@@ -1,5 +1,5 @@
 // This code simulates the genetic inheritance of blood type 
-// by a particualr individual going back as many generations as
+// by a particular individual going back as many generations as
 // you choose
 
 #include <stdbool.h>
