@@ -1,27 +1,16 @@
 Harvard CS50x Projects
 ======================
 
-Below I am listing key concepts learned.
+Written by Adam Brierley
+Bedfordshire
 
-C
----
-Use of C compiler, third party libraries, custom functions, data types, command-line arguments. Focus on good design and good style.
+3rd April 2026
 
-Arrays
--------
+Welcome to my repository. Below are some of my favourite projects and 
+assignments from the online CS50x course.
 
-Algorithms
-----------
-Searching and sorting. Binary search is O(logn). 
 
-Memory
-------
-Pointers.
-
-Data Structures
----------------
-Adding to arrays is inefficient. Linked lists preferable as easier to 
-dynamically allocate more memory. Can either append or prepend linked lists. 
-Hash tables and tries can be used. Dictionaries are an abstract datatype. 
-Hash table is O(1) plus O(n) algorithm. Dictionaries can use hash tables 
-or tries.
+Key concepts that I've found most valuable are compilation, translating 
+source code into executable binaries, and hash tables, dynamically 
+allocating memory with linked lists, and algorithm complexity such as 
+O(1), O(n), O(n^2), O(logn).
