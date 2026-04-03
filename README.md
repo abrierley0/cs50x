@@ -11,7 +11,7 @@ Contact me here: _adambrierley3@gmail.com_
 ----------------------------------------------
 
 Welcome to my repository. Above are some of my favourite projects and 
-assignments from the online CS50x course.
+assignments from the online CS50x course which I am using to advance my knowledge of general computer science concepts.
 
 Key concepts that I've found most valuable are compilation (translating 
 source code into executable binaries), hash tables (dynamically 
