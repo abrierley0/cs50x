@@ -1,3 +1,5 @@
+# Highlights edges of an image
+
 from PIL import Image, ImageFilter 
 
 before = Image.open("bridge.bmp")

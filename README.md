@@ -2,12 +2,11 @@ CS50x Projects
 ==============
 
 _Written by Adam Brierley_\
-_Bedfordshire_\
-_UK_
+_Bedfordshire_
 
-Updated: _3rd April 2026_
+Updated: _6th April 2026_
 
-Contact me here: _adambrierley3@gmail.com_
+Contact me here: _adambrierley@proton.me_
 
 ----------------------------------------------
 
