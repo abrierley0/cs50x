@@ -1,11 +1,6 @@
 # SPELLCHECKER IN PYTHON
 
-# Demonstrates readability, fewer lines of code, more functionality built-in to Python
-# But, uses more R.A.M and is slower and you lose control of the memory
-# Harder to make mistakes with Python
-# Switching to object-oriented languages
-
-# Make words a set - mathematical definition, no duplicates
+# Make words a mathematical set
 words = set()
 
 # Make words lowercase and check if in words
