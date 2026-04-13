@@ -13,10 +13,11 @@ print(f"{z:.50f}")
 # Truncation solved, floating-point precision problem remains
 
 def get_int(prompt):
-    try:
-        return int(input(prompt))
-    except ValueError:
-        print("Not an integer")
+    while True:
+        try:
+            return int(input(prompt))   # return breaks you out of loop
+        except ValueError:
+            print("Not an integer")
 
 
 def main():
