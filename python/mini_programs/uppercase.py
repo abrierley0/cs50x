@@ -12,7 +12,7 @@ while i < 3:
 for i in [0, 1, 2]:
     print("hello, world")
 
-# Most Pythonic way to write this
+# Pythonic way to write this
 for i in range(3):  # range function
     print("hello, world")
 
