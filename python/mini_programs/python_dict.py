@@ -23,7 +23,7 @@ else:
 # More Pythonic
 for person in people:
     if person["name"] == name:
-        print(f"Found {person['number']}")  # Put anything in {}, but use ''
+        print(f"Found {person['number']}.")  # Put anything in {}, but use ''
         break 
 else:
-    print("Not found")
+    print("Not found.")
