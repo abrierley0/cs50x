@@ -1,16 +1,15 @@
-# Prints mario stairs
+# Prints a half-pyramid of height 1-8 inclusive
 
 def main():
-
-    # Prompt user for pyramid height
+    # Prompt user for height
     height = get_int("Height: ")
 
-    # Print pyramid of size height
+    # Print half-pyramid
     stairs(height)
 
 
-# Gets a valid integer
 def get_int(prompt):
+    """ Prompts user for an integer until input is valid"""
     while True: # Keep running loop unless broken
         try:
             num = int(input(prompt))
@@ -20,11 +19,15 @@ def get_int(prompt):
         except:
             print("Please enter a valid integer.")
 
-# Prints pyramid of size height
+
 def stairs(int):
+    """Prints a half-pyramid of size height"""
     for i in range(int):
-        print(" " * (int - (i + 1)), end="")
-        print("#" * (i + 1))
+        spaces = int - (i + 1)
+        hashes = i + 1
+        print(" " * spaces + "#" * hashes)
 
 
-main()
+if __name__ == "__main__":
+    """ Prevents the file running automatically on import"""
+    main()
