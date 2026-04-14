@@ -1,4 +1,4 @@
-# Sums up scores
+# Finds average of a list of scores
 
 from cs50 import get_int
 
@@ -9,7 +9,7 @@ print(f"Average: {average}")
 
 scores = [] # Empty list possible in Python not C
 
-# Append method
+# Append method and concatenation
 for i in range(3):
     score = get_int("Score: ")
     #scores.append(score)
