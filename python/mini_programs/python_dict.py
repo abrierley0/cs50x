@@ -1,4 +1,4 @@
-# Dictionary in Python
+# Dictionaries in Python
 
 # Global list of dictionaries
 people = [ 
