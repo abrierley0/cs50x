@@ -9,6 +9,7 @@ people = {
 
 name = input("Name: ")
 
+# Check name in dict, if yes return corresponding number
 if name in people:
     number = people[name]
     print(f"Found {number}")
