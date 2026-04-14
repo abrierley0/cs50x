@@ -14,7 +14,7 @@ print(f"{z:.50f}")
 
 # Truncation solved, floating-point precision problem remains
 
-# Define a helper function that prompts until user provides as int
+# Define a helper function that prompts until user provides an int
 def get_int(prompt):
     while True:
         try:
