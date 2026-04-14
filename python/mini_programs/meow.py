@@ -4,12 +4,12 @@
 def main():
     meow(7)
 
-#____________DEFINE HELPER FUNCTIONS AT BOTTOM OF PROGRAM___________________
+#____________PUT MAIN AT TOP OF SCRIPT FOR READABILITY___________________
 def meow(n):
     for i in range(n):
         print("meow")
 
 #___________________________________________________________________________
 
-# CALL MAIN AT THE END
+# CALL MAIN AT THE END IS CONVENTIONAL IN PYTHON
 main()
