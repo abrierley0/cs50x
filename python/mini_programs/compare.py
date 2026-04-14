@@ -6,11 +6,11 @@ from cs50 import get_int
 s = input("s: ")
 t = input("t: ")
 
-# In Python this works, in C it doesn't because
+# In Python this works, in C it doesn't because, note comparing as strings
 if s == t:
     print("Same.")
 else:
-    print("Different")
+    print("Different.")
 
 
 
