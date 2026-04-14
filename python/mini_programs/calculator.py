@@ -1,4 +1,6 @@
-# Calculate a division
+# Calculate a division and a sum
+
+# NOTE: It is Pythonic to add more lines between functions in Python
 
 x = int(input("x: "))
 y = int(input("y: "))
@@ -12,6 +14,7 @@ print(f"{z:.50f}")
 
 # Truncation solved, floating-point precision problem remains
 
+# Define a helper function that prompts until user provides as int
 def get_int(prompt):
     while True:
         try:
@@ -19,7 +22,7 @@ def get_int(prompt):
         except ValueError:
             print("Not an integer")
 
-
+# Define a the main function to sum two integers
 def main():
     x = get_int("x: ")
     y = get_int("y: ")
@@ -27,6 +30,5 @@ def main():
     print(x + y)
 
 
+# Pythonic to call main at end, unlike in C
 main()
-
-# Pythonic to add more lines between functions in Python
