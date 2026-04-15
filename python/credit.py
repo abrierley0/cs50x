@@ -46,7 +46,7 @@ def checksum(num, length):
     off_sum = 0
     on_sum = 0
 
-    for i in range(length // 2):
+    for i in range(length // 2):    # NOTE: floor/integer division
         # Double second from last digit
         off_digit = 2 * int((num // 10) % 10)
         off_sum += (off_digit // 10) + (off_digit % 10)
