@@ -2,8 +2,6 @@
 
 MASTERCARD = 16
 AMEX = 15
-VISA_13 = 13
-VISA_16 = 16
 
 def main():
     # Get a credit card number from the user
@@ -15,10 +13,10 @@ def main():
     elif check_amex(number) and checksum(number, AMEX):
         print("AMEX.")
 
-    elif check_visa(number) and checksum(number, VISA_13):
+    elif check_visa(number) and checksum(number, 13):
         print("VISA.")
 
-    elif check_visa(number) and checksum(number, VISA_16):
+    elif check_visa(number) and checksum(number, 16):
         print("VISA.")
 
     else:
