@@ -22,16 +22,13 @@ def main():
 
     reading_level = coleman_liau(avg_letters, avg_sentences)
 
+    # Print reading level between 1 and 16
     if 1 <= reading_level < 16:
         print(f"Grade {round(reading_level)}")
     elif reading_level < 1:
         print("Below Grade 1")
     elif reading_level > 16:
         print("Grade 16+")
-
-    print(letter_count)
-    print(word_count)
-    print(sentence_count)
 
 
 def count_letters(text):
