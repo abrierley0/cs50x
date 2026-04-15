@@ -1,21 +1,28 @@
 # Checks credit card number
 
+# Length of Mastercard numbers
 MASTERCARD = 16
+
+# Length of AMEX numbers
 AMEX = 15
 
 def main():
     # Get a credit card number from the user
     number = input("Number: ")
 
+    # Checks length and first few numbers then applies Luhn's algorithm
     if check_mastercard(number) and checksum(number, MASTERCARD):
         print("MASTERCARD.")
 
+    # ''
     elif check_amex(number) and checksum(number, AMEX):
         print("AMEX.")
 
+    # ''
     elif check_visa(number) and checksum(number, 13):
         print("VISA.")
 
+    # ''
     elif check_visa(number) and checksum(number, 16):
         print("VISA.")
 
