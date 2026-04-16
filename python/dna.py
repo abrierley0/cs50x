@@ -18,7 +18,7 @@ def main():
         for row in reader:
             rows.append(row)
 
-    # Read raw DNA into a text file
+    # Read raw DNA text file into a variable
     with open(sys.argv[2]) as file:
         person = file.read()
 
