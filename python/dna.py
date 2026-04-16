@@ -6,7 +6,7 @@ import sys
 
 def main():
 
-    # User must input a database file with DNA records, and a text file with raw DNA as CL arguments
+    # User must input a database file with DNA records, and a text file with raw DNA, as CL arguments
     if len(sys.argv) != 3:
         print("Requires two command-line arguments.")
         sys.exit()
