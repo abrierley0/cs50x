@@ -6,34 +6,36 @@ import sys
 
 def main():
 
-    # TODO: Check for command-line usage
+    # User must input a database file with DNA records, and a text file with raw DNA as CL arguments
     if len(sys.argv) != 3:
         print("Requires two command-line arguments.")
         sys.exit()
 
-    # TODO: Read database file into a variable
+    # Read database file into a variable
     rows = []
     with open(sys.argv[1]) as file:
         reader = csv.DictReader(file)
         for row in reader:
             rows.append(row)
 
-    # TODO: Read DNA sequence file into a variable
+    # Read raw DNA into a text file
     with open(sys.argv[2]) as file:
         person = file.read()
 
-    # TODO: Find longest match of each STR in DNA sequence
+    # Find the longest contiguous appearance of each DNA sequence
     longest_runs = []
     sequences = len(reader.fieldnames) - 1
     for i in range(sequences):
         longest_run = longest_match(person, reader.fieldnames[i+1])
         longest_runs.append(longest_run)
 
+    # Check if frequencies match any records
     for i in range(len(rows)):
         if longest_runs == [int(rows[i][j]) for j in reader.fieldnames[1:]]:
             print(rows[i]['name'])
             return
     print("No match")
+
 
 def longest_match(sequence, subsequence):
     """Returns length of longest run of subsequence in sequence."""
